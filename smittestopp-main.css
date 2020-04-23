@@ -1,0 +1,57 @@
+body{
+	background-color: black;
+	min-height: 2000px;
+	margin: auto;
+	max-width: 100vh;
+	text-align: center;
+}
+	
+
+header{
+	font-family: fantasy;
+	font-size: 35px;
+	max-width: 1000px;
+	max-height: 3000px;
+	background-color: lightcoral;
+	
+}
+
+main{
+	font-family: monospace;
+	max-width: 1000px;
+	background-color: lightcoral;
+	font-size: 25px;
+}
+
+main>table{
+	border-collapse: collapse;
+}
+
+thead>tr{
+	background-color: coral;
+}
+
+tbody>tr{
+	background-color: lightpink;
+}
+
+th{
+	text-align: left;
+	padding: 7px 15px;
+	border:2px solid black;
+	border-bottom: 4px solid black;
+}
+
+td{
+	text-align: left;
+	padding: 7px 15px;
+	border:2px solid black;
+}
+
+a:hover{
+	color: lightgreen;
+}
+
+a{
+	color:pink;
+	
